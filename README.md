@@ -1,0 +1,6 @@
+Struct: dictionary_entry
+Aceasta structura contine cuvantul si prioritatea din dictionar.
+Prima functie: autocompletare
+Aceasta functie parcurge fiecare cuvant introdus, verificandu-se daca poate fi completat, pe rand, cu fiecare dintre cuvintele din dictionar. Fiecarui cuvant introdus i se vor contoriza cuvintele din dictionar care pot fi completarea lor intr-o variabila "g". Cazurile cand cuvantul introdus se termina in steluta vor fi realizate separat. In vectorul "gasit" se vor retine indicii cuvintelor din dictionar care pot fi completarea cuvintelor introduse. Se vor sorta indicii din "gasit" din punct de vedere al prioritatii, apoi "gasit[0]" va fi sortat astfel incat sa fie cel mai aproape din punct de vedere lexicografic. Se vor afisa cuvintele in functie de cele trei categorii: cuvantul care nu poate fi completat cu niciun cuvant din dictionar, cuvantul care se termina in "*" si cuvantul care poate fi completat cu cel putin un cuvant din dictionar.
+Functia main
+Aceasta functie va citi numarul de cuvinte din dictionar, apoi cuvintele. Se vor citi numarul de cuvinte introduse, apoi cuvintele.
